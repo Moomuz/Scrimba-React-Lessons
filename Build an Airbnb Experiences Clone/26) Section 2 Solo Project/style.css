@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background: #F55A5A;
+    height: 55px;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+
+nav > p {
+    padding-left: 10px;
+}
+
+/* Destination Component */
+.dest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dest--container {
+    display: flex;
+    width: 470px;
+    align-self: center;
+    padding: 18px 0px;
+    align-items: center;
+}
+
+.dest > hr {
+    width: 478px;
+    border: solid 1px #F5F5F5;
+    margin: 0;
+    align-self: center;
+}
+
+.dest--details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.dest--details > *, .dest--location-section > * {
+    margin: 0;
+}
+
+.dest--location-section {
+    display: flex;
+    align-items: baseline;
+    font-size: 10px;
+}
+
+.dest--location {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    padding-left: 5px;
+}
+
+.dest--google-maps-link {
+    font-weight: 400;
+    font-size: 10.24px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-left: 10px;
+}
+
+.dest--title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    padding-bottom: 15px;
+}
+
+.dest--dates {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.dest--description {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.dest--image {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+}
+
+
+
+

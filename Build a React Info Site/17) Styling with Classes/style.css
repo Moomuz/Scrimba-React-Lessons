@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 15px #8F8F8F;
+    width: 104%;
+    margin: -10px;
+}
+
+.nav-logo {
+    width: 60px;
+    padding-left: 15px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    padding-right: 15px;
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+.main-content {
+    padding: 10px;
+    height: 250px;
+}
+
+.main-content > li {
+    padding-left: -10px;
+}
+
+.footer {
+    background-color: #8F8F8F;
+    color: white;
+    width: 104%;
+    margin: -10px;
+    padding: 10px 10px 10px 20px;
+}
